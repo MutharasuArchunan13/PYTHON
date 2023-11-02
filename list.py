@@ -61,3 +61,11 @@ for index,name in enumerate(names):
 #specify the staring index
 for index,name in enumerate(names,start=4):
     print(index,name)
+
+#join and split
+new_names=' , '.join(names)
+print(new_names)
+
+#split
+updated_names=new_names.split(' , ')
+print(updated_names)
