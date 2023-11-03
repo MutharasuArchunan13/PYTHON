@@ -14,3 +14,12 @@ elif b > a:
     print('b is greater than a')
 else: 
   print("a and b is equal")  
+
+num =0
+if a and num:
+    print('the variables contain values')
+if a or num:
+    print('one value is false other is true')
+if not num:
+   pass
+# pass us pass statement to avoid to get the error
