@@ -8,3 +8,14 @@ if index == user_input:
  print('hey goog job dude ')
 else:
  print('Better luck sometime')
+
+
+#import some more libraries
+import datetime
+print('today dateTime: ',datetime.date.today(),' :',datetime.datetime.now().time())
+
+import calendar
+print(calendar.isleap(2001))
+
+import os
+print(os.getcwd(),os.__file__)
