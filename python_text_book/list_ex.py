@@ -20,3 +20,21 @@ dinner_friends.insert(middle,'john')
 # add member end of the list using append
 dinner_friends.append('mutharasu')
 print(dinner_friends)
+
+#now the table is occupied in another guest now only two seats are avilable so say sorry invite apart from those two peoples 
+print('i am realy feel bad that situatiion'+dinner_friends.pop())
+print('i am realy feel bad that situatiion'+dinner_friends.pop())
+print('i am realy feel bad that situatiion'+dinner_friends.pop())
+print('i am realy feel bad that situatiion'+dinner_friends.pop())
+print('i am realy feel bad that situatiion'+dinner_friends.pop())
+print('i am realy feel bad that situatiion'+dinner_friends.pop())
+
+#rest of two people invite to seat the dinner
+print('please take your seat  :'+dinner_friends[0])
+print('please take your seat  :'+dinner_friends[1])
+
+del dinner_friends[1]
+del dinner_friends[0]
+print(dinner_friends)
+
+
