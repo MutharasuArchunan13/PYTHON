@@ -37,4 +37,22 @@ del dinner_friends[1]
 del dinner_friends[0]
 print(dinner_friends)
 
+#excercise 2
+# create list of fvrt places would you like to go non-alphabetical order
+places = ['thanjavur','acra','karuppur','coimbatore','ooty','pondi','kanyakumari']
+print(places)
+# use sorted method because don't affect the orginal  list
+sorted_places = sorted(places)
+print(sorted_places)
+# print the original list 
+print(places)
+#reverse alphabeticla order
+reverse_places = sorted(places,reverse=True)
+print(reverse_places)
+# original list
+print(places)
 
+places.reverse()
+print("reverse order :",places)
+places.reverse()
+print('once again reverse order:',places)

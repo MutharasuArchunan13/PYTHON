@@ -15,3 +15,4 @@ friends.reverse()
 print('reverse order in original values :',friends) 
 # find the length
 print('length of the list',len(friends))
+
