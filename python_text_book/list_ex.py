@@ -20,7 +20,7 @@ dinner_friends.insert(middle,'john')
 # add member end of the list using append
 dinner_friends.append('mutharasu')
 print(dinner_friends)
-
+print(len(dinner_friends))
 #now the table is occupied in another guest now only two seats are avilable so say sorry invite apart from those two peoples 
 print('i am realy feel bad that situatiion'+dinner_friends.pop())
 print('i am realy feel bad that situatiion'+dinner_friends.pop())
@@ -56,3 +56,28 @@ places.reverse()
 print("reverse order :",places)
 places.reverse()
 print('once again reverse order:',places)
+
+# use sort() to print the values in sorted order
+places.sort()
+print('after use sort method:',places)
+
+# use sort() to reverse order
+places.sort(reverse=True)
+print('print reverse albhabetical :',places)
+
+# make a index errror 
+# print('length of the list: ',len(places))
+# print(places[7])
+
+# for loop with list
+gang =['saravana','mahendra','arasu','uthaya','mari','rajesh','muhesh','karthi']
+for guy in gang:
+    print(guy.title()," is a good person but don't show of others.")
+    print('That is the good thing. \n')
+print('All guys are made the gang.')
+
+# print gang name with place name
+print(len(gang),len(places))
+combined_name_place = list(zip(gang,places))
+for gang,places in combined_name_place:
+    print(f'{gang} wants to go {places}')
