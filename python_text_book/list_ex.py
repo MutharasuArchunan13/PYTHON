@@ -70,7 +70,7 @@ print('print reverse albhabetical :',places)
 # print(places[7])
 
 # for loop with list
-gang =['saravana','mahendra','arasu','uthaya','mari','rajesh','muhesh','karthi']
+gang =['saravana','mahendra','arasu','uthaya','mari','rajesh','muhesh','karthi','arun']
 for guy in gang:
     print(guy.title()," is a good person but don't show of others.")
     print('That is the good thing. \n')
@@ -81,3 +81,7 @@ print(len(gang),len(places))
 combined_name_place = list(zip(gang,places))
 for gang,places in combined_name_place:
     print(f'{gang} wants to go {places}')
+
+
+# previously used for loop doesn't destroyed here i can  acces that guy in gang(the output is last value of the collection)
+print(guy)
