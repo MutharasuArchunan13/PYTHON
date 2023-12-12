@@ -29,3 +29,30 @@ print(names_of_district[:]) #start first to last element
 #using for loop 
 for value in names_of_district[0:3]:
     print(value)
+
+favrt_animals = ['lion','tiger','wolf','cat','dog']
+copy_fvrt_anials = favrt_animals[:] # or we can directly assign the list to another variable
+print(copy_fvrt_anials)
+
+######### slice #######
+bikes = ['honda','yamaha','suzuki','kawasaki','bmw','ducati']
+print(f'These are my first three bikes in my bike list : {bikes[:3]}')
+print(f'These are my middle bikes in my list: {bikes[int(len(bikes)/2)-1:int(len(bikes)/2)+1]}')
+print(f'These are my last three bikes in my list: {bikes[-3:]}')
+
+########### 
+pizza = ['nepolitana','margherita','takilo ','bufalina','cheese','peperoni','chicken']
+"""  here directly assign the list on another list isn't same::friends_pizza = pizza 
+   if follow this python whenever you add the value in pizza it #will add in friends_pizza and also add any value in friends_pizza that's also in pizza """
+friends_pizza = pizza[:]  
+pizza.append('hawaian')
+friends_pizza.append('peperoni_cheese')
+friends_pizza.append('mutton_pizza')
+
+print('My favourite pizzas are:')
+for value in pizza:
+    print(value)
+    
+print('My friend\'s favourite pizzas are:')
+for value in friends_pizza:
+    print(value)
