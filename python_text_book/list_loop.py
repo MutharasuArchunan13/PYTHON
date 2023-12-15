@@ -29,8 +29,6 @@ print(names_of_district[:]) #start first to last element
 #using for loop 
 for value in names_of_district[0:3]:
     print(value)
-<<<<<<< HEAD
-=======
 
 favrt_animals = ['lion','tiger','wolf','cat','dog']
 copy_fvrt_anials = favrt_animals[:] # or we can directly assign the list to another variable
@@ -58,4 +56,3 @@ for value in pizza:
 print('My friend\'s favourite pizzas are:')
 for value in friends_pizza:
     print(value)
->>>>>>> 0022c681c8854ae5efb79068574e3449423a3e64
