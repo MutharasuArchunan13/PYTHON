@@ -32,3 +32,16 @@ programming_words ={
     }
 for key in programming_words.keys():
     print(f"{key}:\n \t{programming_words[key]}")
+
+
+# in dictionary we have the key and value pair and also we can  access seperately 
+rivers={"ganga":"allahabad",
+        "arayu":"ayodhaya",
+        "gomti":"lucknow",
+        "vaigai":"madurai",
+        "kaveri":"erode"
+        }
+
+for river in sorted(rivers.keys()):
+    print(f"we have the river {river.title()} in india.")
+    print(f"The {river.title()} pass through {rivers.get(river)}")
