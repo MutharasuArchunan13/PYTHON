@@ -45,3 +45,37 @@ rivers={"ganga":"allahabad",
 for river in sorted(rivers.keys()):
     print(f"we have the river {river.title()} in india.")
     print(f"The {river.title()} pass through {rivers.get(river)}")
+
+
+#create three people dict then add within a list then that list store as people
+peoples =[
+            {
+                "arasu":{
+                "name":"mutharasu A",
+                "work": "software developer",   
+                 "language":"c,java,python,django"
+                 }
+            },
+            {
+                "pandi":{
+                "name":"muthupandi A",
+                "work": "CEO of abc finance ltd ",   
+                 "language":"tamil,english"
+                 }
+            },
+            {
+                "arun":{
+                "name":"arunkumar A",
+                "work": "software developer",   
+                 "language":"python,django"
+                 }
+            },
+
+
+        ]
+for people in peoples:
+    for key, value in people.items():
+        print(f"Hey!, hi {key}.")
+        print(f"\t name: {value["name"]}")
+        print(f"\t work: {value["work"]}")
+        print(f"\t language_known: {value["language"]}")
